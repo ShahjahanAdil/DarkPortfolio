@@ -1,0 +1,204 @@
+@media screen and (max-width: 991px) {
+    .experience-pin-page {
+        display: none;
+    }
+
+    .services-boxes {
+        grid-template-columns: repeat(2, 1fr);
+        align-items: stretch;
+        padding: 50px;
+    }
+
+    .service-box:nth-child(even) {
+        margin-top: 0px;
+    }
+
+    .expertise-content .skills {
+        width: 60%;
+    }
+
+    .projects-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 25px;
+    }
+
+    .contact-box {
+        padding: 25px 30px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    h1 {
+        font-size: 3.5rem;
+    }
+
+    h2 {
+        font-size: 3rem;
+    }
+
+    h3 {
+        font-size: 2.5rem;
+    }
+
+    h4 {
+        font-size: 2rem;
+    }
+
+    h5 {
+        font-size: 1.5rem;
+    }
+
+    p {
+        font-size: 1.1rem;
+    }
+
+    button {
+        font-size: 1.1rem;
+    }
+
+    a {
+        font-size: 1.1rem;
+    }
+
+    .cover-content h1 {
+        font-size: 11vw;
+    }
+
+    .cover-content h2 {
+        font-size: 9.5vw;
+    }
+
+    .about-section {
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+        padding: 75px 20px;
+    }
+
+    .about-left {
+        width: 100%;
+    }
+
+    .about-right {
+        width: 100%;
+    }
+
+    .about-right-box {
+        width: 100%;
+        max-width: 100%;
+        min-height: fit-content;
+    }
+
+    .services-boxes {
+        padding: 50px 20px;
+    }
+
+    #expertise {
+        height: 700px;
+    }
+
+    .expertise-content {
+        padding: 20px 50px;
+    }
+
+    .expertise-content .skills {
+        width: 100%;
+    }
+
+    .projects-grid {
+        gap: 20px;
+    }
+
+    #contact {
+        height: 420px;
+    }
+
+    .contact-data {
+        bottom: 35px;
+    }
+}
+
+@media screen and (max-width: 571px) {
+    #contact {
+        height: 480px;
+        margin-top: 380px;
+    }
+
+    .contact-box {
+        padding: 25px 20px;
+    }
+
+    .contact-data {
+        bottom: 40px;
+    }
+}
+
+@media screen and (max-width: 499px) {
+    h1 {
+        font-size: 3rem;
+    }
+
+    h2 {
+        font-size: 2.5rem;
+    }
+
+    h3 {
+        font-size: 2rem;
+    }
+
+    h4 {
+        font-size: 1.5rem;
+    }
+
+    h5 {
+        font-size: 1.3rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    button {
+        font-size: 1rem;
+    }
+
+    a {
+        font-size: 1rem;
+    }
+
+    .header {
+        padding: 15px 20px;
+    }
+
+    .h-left h5 {
+        font-size: 1.5rem;
+    }
+
+    .header-small {
+        top: 74px;
+        padding: 10px 0px;
+    }
+
+    .about-section {
+        padding: 50px 15px;
+    }
+
+    .services-boxes {
+        grid-template-columns: repeat(1, 1fr);
+        padding: 50px 20px;
+    }
+
+    .expertise-content {
+        padding: 20px;
+    }
+
+    .projects-grid {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+        padding: 50px 20px;
+    }
+
+    footer p {
+        font-size: 1rem;
+    }
+}
